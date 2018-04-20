@@ -3,31 +3,44 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class playercon : MonoBehaviour {
-    private float time = 60;
+     float time = 60;
+    public bool fin;
 	// Use this for initialization
 	void Start () {
-   
+        fin = false;
 	}
    
 	// Update is called once per frame
 	void Update () {
+        
         Rigidbody2D rigidbody = GetComponent<Rigidbody2D>();
-        float a;
-        int se;
-         a = Time.realtimeSinceStartup;  //ゲームが始まってからのリアルタイム時間数
-        se = (int)a;//小数点の削除     
-
-    
-        if (Input.GetKey(KeyCode.F))
-          {
-              Time.timeScale = 0;//停止
-          }
+   
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("pp");
             rigidbody.AddForce(new Vector2(0, 700));
         }
 
 	}
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+      //  GameObject item = GameObject.FindWithTag("item1");
+        if (col.gameObject.tag == "item1")
+        {
+           Destroy(col.gameObject);//触れたアイテムの消去
+        }
+
+      
+        
+        }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "danger")
+        {
+        
+            fin = true;
+        }
+    }
 }
