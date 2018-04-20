@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class cameraconfig : MonoBehaviour {
-   
+   public  
 	// Use this for initialization
 	void Start () {
 		
@@ -14,9 +14,9 @@ public class cameraconfig : MonoBehaviour {
         GameObject player = GameObject.FindWithTag("Player");
         Vector3 cpos = transform.position;
         Vector3 ppos = player.transform.position;
-        cpos.x = ppos.x;
-        cpos.y = ppos.y;
-        cpos.z = -10;
+        cpos.x = ppos.x+40;
+        cpos.y = ppos.y-10;
+        cpos.z = -20;
         transform.position = cpos;
 	}
 }
