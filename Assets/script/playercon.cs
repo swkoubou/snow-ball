@@ -5,6 +5,7 @@ using UnityEngine;
 public class playercon : MonoBehaviour {
      float time = 60;
     public bool fin;
+    public float jump_power = 1000;
 	// Use this for initialization
 	void Start () {
         fin = false;
@@ -18,7 +19,7 @@ public class playercon : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            rigidbody.AddForce(new Vector2(0, 700));
+            rigidbody.AddForce(new Vector2(0, jump_power));
         }
 
 	}

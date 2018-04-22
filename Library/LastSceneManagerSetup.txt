@@ -1,4 +1,4 @@
 sceneSetups:
-- path: "C:/Users/1721022/Documents/\u30B2\u30FC\u30E0\u88FD\u4F5C/GitHub/2Dmusou-1nen/Assets/musou.unity"
+- path: Assets/snow.unity
   isLoaded: 1
   isActive: 1
