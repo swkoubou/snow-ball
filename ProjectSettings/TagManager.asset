@@ -6,6 +6,7 @@ TagManager:
   tags:
   - item1
   - danger
+  - floor
   layers:
   - Default
   - TransparentFX

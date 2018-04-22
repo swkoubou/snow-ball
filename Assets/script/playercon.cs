@@ -6,6 +6,7 @@ public class playercon : MonoBehaviour {
      float time = 60;
     public bool fin;
     public float jump_power = 1000;
+    bool fl = false;
 	// Use this for initialization
 	void Start () {
         fin = false;
@@ -17,9 +18,10 @@ public class playercon : MonoBehaviour {
         Rigidbody2D rigidbody = GetComponent<Rigidbody2D>();
    
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (fl==true && Input.GetKeyDown(KeyCode.Space))
         {
             rigidbody.AddForce(new Vector2(0, jump_power));
+            fl = false;
         }
 
 	}
@@ -43,5 +45,11 @@ public class playercon : MonoBehaviour {
         
             fin = true;
         }
+
+        if (col.gameObject.tag == "floor") {
+            fl = true;
+        }
     }
+
+
 }
