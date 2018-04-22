@@ -34,7 +34,7 @@ public class gamecont : MonoBehaviour {
 
         if (fini == true)
         {
-            SceneManager.LoadScene("end1");
+            SceneManager.LoadScene("end2");
         }
     }
 }
