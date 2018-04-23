@@ -6,6 +6,7 @@ public class playercon : MonoBehaviour {
      float time = 60;
     public bool fin;
     public float jump_power = 1000;
+    public int score;
     bool fl = false;
 	// Use this for initialization
 	void Start () {
@@ -32,8 +33,13 @@ public class playercon : MonoBehaviour {
         if (col.gameObject.tag == "item1")
         {
            Destroy(col.gameObject);//触れたアイテムの消去
+            score += 100;
         }
-
+        if (col.gameObject.tag == "item2")
+        {
+            Destroy(col.gameObject);
+            score += 200;
+        }
       
         
         }
