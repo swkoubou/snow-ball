@@ -25,12 +25,8 @@ public class gamecont : MonoBehaviour {
       
         a = Time.realtimeSinceStartup;  //ゲームが始まってからのリアルタイム時間数
         se = (int)a;//小数点の削除     
-
-
-        if (Input.GetKey(KeyCode.Backspace))
-        {
-            Time.timeScale = 0;//停止
-        }
+       
+        
 
         if (fini == true)
         {
