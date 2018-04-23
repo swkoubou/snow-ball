@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 7668
+  controlID: 1749
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 7669
+  controlID: 1750
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -264,7 +264,6 @@ MonoBehaviour:
     y: 415
     width: 690
     height: 250
-  m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 1
   m_Gizmos: 0
   m_Stats: 0
@@ -341,12 +340,11 @@ MonoBehaviour:
     y: 92
     width: 271
     height: 646
-  m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 7c6c0000
-    m_LastClickedID: 27772
-    m_ExpandedIDs: 2e7bf9fff867faffaa78faff6a0dfbffa28cfcff5090fcffce9cfcff549efcff6674fdffb075fdff3ab8feffec0fffff88cbffffcae7ffff9efbffff00000000e02900006c3900006e5900000a6300001e6d0000
+    m_SelectedIDs: 94320000
+    m_LastClickedID: 0
+    m_ExpandedIDs: b0eeffffbcf2ffff6cf7ffff0000000034320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -395,16 +393,15 @@ MonoBehaviour:
     y: 92
     width: 690
     height: 375
-  m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
   lastFramingTime: 3941.972072066354
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 395.1752, y: 6.559612, z: -0.40617323}
+    m_Target: {x: 385.04657, y: 12.544368, z: -0.49414062}
     speed: 2
-    m_Value: {x: 395.1752, y: 6.559612, z: -0.40617323}
+    m_Value: {x: 385.04657, y: 12.544368, z: -0.49414062}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -413,7 +410,6 @@ MonoBehaviour:
     showSkybox: 1
     showFlares: 1
     showImageEffects: 1
-    showParticleSystems: 1
   grid:
     xGrid:
       m_Target: 0
@@ -432,9 +428,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 7.2838597
+    m_Target: 16.086248
     speed: 2
-    m_Value: 7.2838597
+    m_Value: 16.086248
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -472,7 +468,6 @@ MonoBehaviour:
     y: 488
     width: 690
     height: 250
-  m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -485,19 +480,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/script
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/script
   m_LastFoldersGridSize: 64
-  m_LastProjectPath: "C:\\Users\\1721022\\Documents\\\u30B2\u30FC\u30E0\u88FD\u4F5C\\GitHub\\snowroler"
+  m_LastProjectPath: C:\Users\1723116\Documents\Git\snow-ball
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 7e270000
-    m_LastClickedID: 10110
-    m_ExpandedIDs: 000000007e27000094270000d827000000ca9a3bffffff7f
+    m_SelectedIDs: 562a0000
+    m_LastClickedID: 10838
+    m_ExpandedIDs: 000000003e2a0000562a0000982a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -525,7 +520,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007e27000094270000d827000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000003e2a0000562a0000982a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -606,7 +601,6 @@ MonoBehaviour:
     y: 488
     width: 690
     height: 250
-  m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -633,8 +627,7 @@ MonoBehaviour:
     y: 480
     width: 799
     height: 258
-  m_PersistentViewDataDictionary: {fileID: 0}
-  m_ViewTransforms:
+  m_ViewPositions:
     m_KeySerializationHelper: []
     m_ValueSerializationHelper: []
   m_PreviewAnimator: {fileID: 0}
@@ -676,7 +669,6 @@ MonoBehaviour:
     y: 92
     width: 311
     height: 646
-  m_PersistentViewDataDictionary: {fileID: 0}
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
