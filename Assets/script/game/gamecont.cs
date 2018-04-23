@@ -7,6 +7,7 @@ public class gamecont : MonoBehaviour {
     // Use this for initialization
     private playercon p;
     public bool fini=false;
+    public int score;
 	void Start () {
 		
 	}
@@ -19,8 +20,8 @@ public class gamecont : MonoBehaviour {
   
         float a;
         int se;
-     
 
+        score = p.score;
    
       
         a = Time.realtimeSinceStartup;  //ゲームが始まってからのリアルタイム時間数
