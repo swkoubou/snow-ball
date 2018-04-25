@@ -6,7 +6,9 @@ public class playercon : MonoBehaviour {
      float time = 60;
     public bool fin;
     public float jump_power = 1000;
-    public int score;
+    public static int score=0;
+
+   
     bool fl = false;
 	// Use this for initialization
 	void Start () {
